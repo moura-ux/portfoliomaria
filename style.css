@@ -1,0 +1,308 @@
+* {
+    font-family: poppins;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container{
+display: grid;
+grid-auto-flow: column;
+grid-auto-columns: 1fr;
+}
+
+#header {
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+#menusuperior {
+    text-align: right;
+    margin-top: 49px;
+}
+
+#menusuperior ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menusuperior li {
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a {
+    color: black;
+    cursor: pointer;
+}
+
+#apresentacao {
+    margin-top: 128px;
+    padding-top: 0;
+}
+
+#apresentacao h1 {
+    font-weight: 700;
+    font-size: 55px;
+    padding-top: 0;
+
+}
+
+#apresentacao p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #575455;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+#botaointroducao {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #1F7CFF;
+    font-family: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#imagemsuperior {
+    margin-top: 115px;
+    width: 100%
+    
+}
+
+#textpmid {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+    cursor: pointer;
+    margin-top: 76px;
+}
+
+#apple {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+#slack {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+#spotify {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 100px;
+}
+
+#texto {
+    text-align: center;
+    margin-top: 69px;
+}
+
+#texto h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E; 
+}
+
+#texto h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+
+}
+
+#texto p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575455;
+}
+
+#consultoria {
+    text-align: center;
+    margin-top: 32px;
+    
+}
+
+#consultoriaimg {
+    cursor: pointer;
+}
+
+#consultoria h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#consultoria p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575455;
+}
+
+#marketing {
+    text-align: center;
+    margin-top: 32px;
+}
+
+#marketingimg {
+    cursor: pointer;
+}
+
+#marketing h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#marketing p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575455;
+}
+
+#sites {
+    text-align: center;
+    margin-top: 32px;
+}
+
+#sitesimg {
+    cursor: pointer;
+}
+
+#sites h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+#sites p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #575455;
+}
+
+#imgmedia {
+    margin-top: 97px;
+    width: 578px;
+    height: 431px;
+    margin-bottom: 182px;
+}
+
+#emailinput {
+    background-color: #F5F6FB;
+    border-radius: 50px;
+    color: #575455;
+    width: 406px;
+    height: 48px;
+    margin-left: 76px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 32px;
+    border: none;
+}
+
+#botaoform {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #1F7CFF;
+    font-family: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 76px;
+}
+
+#textomedio h5 {
+    margin-top: 160px;
+    margin-left: 76px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+
+}
+
+#textomedio h1 {
+    margin-left: 76px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+#textomedio p {
+    margin-left: 76px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#textofinal h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+
+#textofina h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 70px;
+}
+
+#planning {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 78px;
+    cursor: pointer;
+}
+
+#business {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 72px;
+    margin-bottom: 78px;
+    cursor: pointer;
+}
+
+#solution {
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 72px;
+    margin-bottom: 78px;
+    cursor: pointer;
+}
+
